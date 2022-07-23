@@ -3,7 +3,7 @@ import { env } from 'node:process'
 import 'dotenv/config'
 import { Client } from 'tmi.js'
 
-import { sendWebhook } from './send-webhook.js'
+import { sendWebhook } from './lib/send-webhook.js'
 
 const {
   BOT_NAME: botName,

@@ -11,12 +11,13 @@
     "lint:fix": "standard --fix"
   },
   "dependencies": {
-    "@twurple/api": "^5.1.7",
-    "@twurple/auth": "^5.1.7",
     "dotenv": "^16.0.1",
     "tmi.js": "^1.8.5"
   },
   "devDependencies": {
     "standard": "^17.0.0"
+  },
+  "engines": {
+    "node": ">=18.x"
   }
 }
