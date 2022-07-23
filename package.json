@@ -1,0 +1,22 @@
+{
+  "name": "twitch-chat-webhook",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "exports": "./index.js",
+  "scripts": {
+    "start": "node .",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "dependencies": {
+    "@twurple/api": "^5.1.7",
+    "@twurple/auth": "^5.1.7",
+    "dotenv": "^16.0.1",
+    "tmi.js": "^1.8.5"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0"
+  }
+}
