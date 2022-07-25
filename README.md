@@ -4,7 +4,7 @@
 
 Ever dreamt of twitch chat sent to your discord channel? Well, don't... as it's here! 🎉
 
-> Warning: there's no any kind of error or ratelimit handling (lol), using it on big channels will likely result in bad time[™](https://youtu.be/0FCvzsVlXpQ).
+> Warning: there's no any kind of error or ratelimit handling (lol), using it on very active channels will likely result in bad time[™](https://youtu.be/0FCvzsVlXpQ).
 
 ## Setup
 
