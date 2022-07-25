@@ -1,6 +1,6 @@
 import { env } from 'node:process'
 
-import 'dotenv/config'
+import 'dotenv/config.js'
 import { Client } from 'tmi.js'
 
 import { sendWebhook } from './lib/send-webhook.js'
