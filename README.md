@@ -8,7 +8,7 @@ Ever dreamt of twitch chat sent to your discord channel? Well, don't... as it's 
 
 ## Setup
 
-* [Node.js](https://nodejs.org/en/download/) 12+
+* [Node.js](https://nodejs.org/en/download/) 14+
 * [pnpm](https://pnpm.io/installation#using-npm) 7+
 
 1. Run `pnpm install -P` to install dependencies skipping dev ones.
