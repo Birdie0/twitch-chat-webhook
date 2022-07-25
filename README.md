@@ -13,8 +13,8 @@ Ever dreamt of twitch chat sent to your discord channel? Well, don't... as it's 
 
 1. Run `pnpm install -P` to install dependencies skipping dev ones.
 2. Copy `.env.sample` to `.env` and fill the values:
-  - `BOT_NAME` - account name on which behalf messages will be read, can be your account too;
-  - `OAUTH_TOKEN` - oauth token, use [this](https://twitchapps.com/tmi/) or any other method known to you, notice that token expires in around 60 days, so update token from time to time;
-  - `CHANNEL_NAME` - channel chat name which will provide messages;
-  - `WEBHOOK_URL` - discord webhook url which will send messages;
+    * `BOT_NAME` - account name on which behalf messages will be read, can be your account too;
+    * `OAUTH_TOKEN` - oauth token, use [this](https://twitchapps.com/tmi/) or any other method known to you, notice that token expires in around 60 days, so update token from time to time;
+    * `CHANNEL_NAME` - channel chat name which will provide messages;
+    * `WEBHOOK_URL` - discord webhook url which will send messages;
 3. Run `pnpm start`
