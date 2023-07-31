@@ -4,20 +4,19 @@
   "license": "MIT",
   "private": true,
   "type": "module",
-  "exports": "./index.js",
   "scripts": {
     "start": "node .",
     "lint": "standard | snazzy",
     "lint:fix": "standard --fix | snazzy"
   },
   "dependencies": {
-    "axios": "^0.27.2",
-    "dotenv": "^16.0.2",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
     "tmi.js": "^1.8.5"
   },
   "devDependencies": {
     "snazzy": "^9.0.0",
-    "standard": "^17.0.0"
+    "standard": "^17.1.0"
   },
   "engines": {
     "node": ">=14.x"
